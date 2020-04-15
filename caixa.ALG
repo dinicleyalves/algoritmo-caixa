@@ -1,8 +1,8 @@
 algoritmo "teste"
-// Disciplina  :  [Linguagem e LÛgica de ProgramaÁ„o] 
+// Disciplina  :  [Linguagem e L√≥gica de Programa√ß√£o] 
 // Professor   : Dinicley S. Alves 
 
-// vari·veis globais   podes aumentar [1..?] pra quantos quiser
+// vari√°veis globais   podes aumentar [1..?] pra quantos quiser
 Var
    produto: vetor[1..2] de Caracter
    preco: vetor[1..2] de real
@@ -10,7 +10,7 @@ Var
    itens: inteiro
 
 procedimento cadastrar
-// vari·veis locais
+// vari√°veis locais
 var
    ler_op: caracter
    opcao: logico
@@ -44,7 +44,7 @@ inicio
 fimprocedimento
 
 procedimento consultar
-// vari·veis locais
+// vari√°veis locais
 var
    opcao: logico
    xi: inteiro
@@ -64,26 +64,18 @@ inicio
 fimprocedimento
 
 procedimento abrircaixa
-// vari·veis locais
+// vari√°veis locais
 var
    opcao: logico
 inicio
-
    //
-   //  aqui vocÍ coloca o procedimento
+   //  aqui voc√™ coloca o procedimento
    //
-
-
-   //  o comeÁo eu j· fiz
+   //  o come√ßo eu j√° fiz
    escreval("Tecle <<enter>> pra continuar  ")
    leia(opcao)
 
 fimprocedimento
-
-
-
-
-
 // inicia o programa
 
 inicio
@@ -104,7 +96,7 @@ inicio
       caso "2"
          consultar
       caso "3"
-         abrircaixa   // ==>  isso È com vocÍ
+         abrircaixa   // ==>  isso √© com voc√™
       caso "4"
          interrompa
       outrocaso
